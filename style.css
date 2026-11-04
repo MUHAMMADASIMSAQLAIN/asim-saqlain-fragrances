@@ -933,7 +933,7 @@ body { background:var(--store-cream); color:var(--store-ink); font-family:Inter,
 .nav-main a { font-size:11px; letter-spacing:.14em; }
 .nav-cta { grid-column:3; justify-self:end; }
 .burger { grid-column:3; grid-row:1; justify-self:end; }
-.hero { display:none; }
+.hero { display:block; }
 .section#collection { padding:2.5rem clamp(1rem,2.8vw,3rem) 4rem; background:var(--store-cream); }
 .sec-head { display:flex; align-items:center; justify-content:space-between; text-align:left; max-width:none; margin:0 0 2.6rem; }
 .sec-head .eyebrow,.sec-head .sub { display:none; }
